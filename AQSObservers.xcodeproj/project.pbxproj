@@ -15,6 +15,9 @@
 		D43CC73A1A242F65000B24BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43CC7391A242F65000B24BB /* Images.xcassets */; };
 		D43CC73D1A242F65000B24BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43CC73B1A242F65000B24BB /* LaunchScreen.xib */; };
 		D43CC7491A242F65000B24BB /* AQSObserversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CC7481A242F65000B24BB /* AQSObserversTests.m */; };
+		D43CC7551A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CC7541A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.m */; };
+		D43CC7581A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CC7571A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.m */; };
+		D43CC75B1A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CC75A1A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,12 @@
 		D43CC7421A242F65000B24BB /* AQSObserversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQSObserversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43CC7471A242F65000B24BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D43CC7481A242F65000B24BB /* AQSObserversTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQSObserversTests.m; sourceTree = "<group>"; };
+		D43CC7531A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSApplicationDidBecomeActiveObserver.h; sourceTree = "<group>"; };
+		D43CC7541A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSApplicationDidBecomeActiveObserver.m; sourceTree = "<group>"; };
+		D43CC7561A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSApplicationWillResignActiveObserver.h; sourceTree = "<group>"; };
+		D43CC7571A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSApplicationWillResignActiveObserver.m; sourceTree = "<group>"; };
+		D43CC7591A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQSApplicationUserDidTakeScreenshotObserver.h; sourceTree = "<group>"; };
+		D43CC75A1A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQSApplicationUserDidTakeScreenshotObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +105,7 @@
 		D43CC72B1A242F65000B24BB /* AQSObservers */ = {
 			isa = PBXGroup;
 			children = (
+				D43CC7521A2433B2000B24BB /* Classes */,
 				D43CC7301A242F65000B24BB /* AppDelegate.h */,
 				D43CC7311A242F65000B24BB /* AppDelegate.m */,
 				D43CC7331A242F65000B24BB /* ViewController.h */,
@@ -132,6 +142,19 @@
 				D43CC7471A242F65000B24BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D43CC7521A2433B2000B24BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D43CC7531A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.h */,
+				D43CC7541A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.m */,
+				D43CC7561A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.h */,
+				D43CC7571A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.m */,
+				D43CC7591A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.h */,
+				D43CC75A1A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		FB6B97DB24E16B5AD16FA0BB /* Pods */ = {
@@ -278,9 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43CC7581A2434D0000B24BB /* AQSApplicationWillResignActiveObserver.m in Sources */,
 				D43CC7351A242F65000B24BB /* ViewController.m in Sources */,
 				D43CC7321A242F65000B24BB /* AppDelegate.m in Sources */,
 				D43CC72F1A242F65000B24BB /* main.m in Sources */,
+				D43CC75B1A24355B000B24BB /* AQSApplicationUserDidTakeScreenshotObserver.m in Sources */,
+				D43CC7551A2433C6000B24BB /* AQSApplicationDidBecomeActiveObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
