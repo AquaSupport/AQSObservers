@@ -23,6 +23,7 @@
     self = [super init];
     if (self) {
         _block = block;
+        [self startObservation];
     }
     return self;
 }

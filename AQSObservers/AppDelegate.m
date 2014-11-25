@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "AQSApplicationDidBecomeActiveObserver.h"
+
 @interface AppDelegate ()
 
 @end
