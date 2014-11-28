@@ -1,7 +1,7 @@
 AQSObservers
 ============
 
-![](http://img.shields.io/cocoapods/v/AQSObservers.svg?style=flat) [![](http://img.shields.io/travis/kaiinui/AQSObservers.svg?style=flat)](https://travis-ci.org/AquaSupport/AQSObservers)
+![](http://img.shields.io/cocoapods/v/AQSObservers.svg?style=flat) [![](http://img.shields.io/travis/AquaSupport/AQSObservers.svg?style=flat)](https://travis-ci.org/AquaSupport/AQSObservers)
 
 A set of Notification Observers.
 
