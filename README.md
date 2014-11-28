@@ -60,6 +60,11 @@ self.observer = [AQSNotificationObserver observerWithBlock:^(NSDictionary *userI
 } name:@"FooNotification" object:someObject];
 ```
 
+Documentation
+---
+
+[appledoc](https://dl.dropboxusercontent.com/u/7817937/___doc___AQSObservers/html/index.html) is provided.
+
 LICENSE
 ---
 
