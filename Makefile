@@ -6,7 +6,7 @@ ORGANIZATION = AquaSupport
 DOMAIN = org.openaquamarine
 GITHUB = https://github.com/$(ORGANIZATION)/$(PROJECT)
 # GitHub account
-USER = kaiinui
+USER = AquaSupport
 APPLEDOC_TEMPLATE = ~/RubymineProjects/SwiftyDoc
 APPLEDOC_OUTPUT = ~/dropbox/Public/___doc___$(PROJECT)
 PROJ_PATH = $(PROJECT)
